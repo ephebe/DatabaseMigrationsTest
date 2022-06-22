@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseMigrationsTest.DbUp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseMigrationsTest.FluentMigrator", "DatabaseMigrationsTest.FluentMigrator\DatabaseMigrationsTest.FluentMigrator.csproj", "{5CD9AE9C-544D-4E6D-8671-E219D1855C48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseMigrationsTest.EntityFramework", "DatabaseMigrationsTest.EntityFramework\DatabaseMigrationsTest.EntityFramework.csproj", "{C5D08123-9DCB-4CFB-AC94-DA74DB04976B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseMigrationsTest.EntityFramework", "DatabaseMigrationsTest.EntityFramework\DatabaseMigrationsTest.EntityFramework.csproj", "{C5D08123-9DCB-4CFB-AC94-DA74DB04976B}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DatabaseMigrationsTest.SqlServerDataTools", "DatabaseMigrationsTest.SqlServerDataTools\DatabaseMigrationsTest.SqlServerDataTools.sqlproj", "{7BE9A2AA-495D-4E34-ACC2-3852DFEB2E2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,12 @@ Global
 		{C5D08123-9DCB-4CFB-AC94-DA74DB04976B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5D08123-9DCB-4CFB-AC94-DA74DB04976B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5D08123-9DCB-4CFB-AC94-DA74DB04976B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE9A2AA-495D-4E34-ACC2-3852DFEB2E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE9A2AA-495D-4E34-ACC2-3852DFEB2E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE9A2AA-495D-4E34-ACC2-3852DFEB2E2D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7BE9A2AA-495D-4E34-ACC2-3852DFEB2E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE9A2AA-495D-4E34-ACC2-3852DFEB2E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BE9A2AA-495D-4E34-ACC2-3852DFEB2E2D}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
