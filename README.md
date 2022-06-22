@@ -4,6 +4,10 @@
 
 https://surfingthecode.com/5-ways-to-manage-database-schema-changes-in-.net/
 
+另一篇介紹Database Migration的理論，也可參考。
+
+http://www.kamilgrzybek.com/database/using-database-project-and-dbup-for-database-management/
+
 1. DatabaseMigrationsTest.DbUp
    使用原生的sql進行資料庫更版，沒有退版這種事，用Sql可以進行比較精細的更版。
 2. DatabaseMigrationsTest.EntityFramework
