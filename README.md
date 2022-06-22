@@ -8,11 +8,11 @@ https://surfingthecode.com/5-ways-to-manage-database-schema-changes-in-.net/
 
 http://www.kamilgrzybek.com/database/using-database-project-and-dbup-for-database-management/
 
-1. DatabaseMigrationsTest.DbUp
+1. DatabaseMigrationsTest.DbUp :
    使用原生的sql進行資料庫更版，沒有退版這種事，用Sql可以進行比較精細的更版。
-2. DatabaseMigrationsTest.EntityFramework
+2. DatabaseMigrationsTest.EntityFramework :
    這應該是最多人用的方式，只是一定要搭配Entity Framework。更新EF的Model，自動產生更新的程式碼。
-3. DatabaseMigrationsTest.FluentMigrator
+3. DatabaseMigrationsTest.FluentMigrator :
    類似EF的更版方式，只是自己寫更新的程式，但是用C#來寫。
-4. DatabaseMigrationsTest.SqlServerDataTools
+4. DatabaseMigrationsTest.SqlServerDataTools :
    用介面修改Schema，再發行出去
